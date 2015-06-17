@@ -1,7 +1,11 @@
+Data for this project was obtained from the UCI Machine Learning Repository. You can read more about the data and how it was obtained at the UCI Machine Learning link here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+There are 68 variables in this dataset, 66 of which are measurements from the original UCI data. Please see below for variable names and descriptions. The dataset itself contains the average of each activity for each subject and measurement, resulting in 180 rows of data (30 subjects, 6 activities.)
+
 Variable Number |   Variable Name           | Description
 ----------------|-----------------------    |------------
-1               |Subject                    |Number identifing which subject the measurements are for
-2               |Activity                   |The activity the subject participated in
+1               |Subject                    |Number identifing the subject
+2               |Activity                   |The activity the subject participated in (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying)
 3               |tBodyAcc-mean()-X          |The mean of the time domain body acceleration signal in the X direction    
 4               |tBodyAcc-mean()-Y          |The mean of the time domain body acceleration signal in the Y direction 
 5               |tBodyAcc-mean()-Z          |The mean of the time domain body acceleration signal in the Z direction 
