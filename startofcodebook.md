@@ -1,69 +1,70 @@
-"mycols"
-"1" "Subject"
-"2" "Activity"
-"3" "tBodyAcc-mean()-X"
-"4" "tBodyAcc-mean()-Y"
-"5" "tBodyAcc-mean()-Z"
-"6" "tGravityAcc-mean()-X"
-"7" "tGravityAcc-mean()-Y"
-"8" "tGravityAcc-mean()-Z"
-"9" "tBodyAccJerk-mean()-X"
-"10" "tBodyAccJerk-mean()-Y"
-"11" "tBodyAccJerk-mean()-Z"
-"12" "tBodyGyro-mean()-X"
-"13" "tBodyGyro-mean()-Y"
-"14" "tBodyGyro-mean()-Z"
-"15" "tBodyGyroJerk-mean()-X"
-"16" "tBodyGyroJerk-mean()-Y"
-"17" "tBodyGyroJerk-mean()-Z"
-"18" "tBodyAccMag-mean()"
-"19" "tGravityAccMag-mean()"
-"20" "tBodyAccJerkMag-mean()"
-"21" "tBodyGyroMag-mean()"
-"22" "tBodyGyroJerkMag-mean()"
-"23" "fBodyAcc-mean()-X"
-"24" "fBodyAcc-mean()-Y"
-"25" "fBodyAcc-mean()-Z"
-"26" "fBodyAccJerk-mean()-X"
-"27" "fBodyAccJerk-mean()-Y"
-"28" "fBodyAccJerk-mean()-Z"
-"29" "fBodyGyro-mean()-X"
-"30" "fBodyGyro-mean()-Y"
-"31" "fBodyGyro-mean()-Z"
-"32" "fBodyAccMag-mean()"
-"33" "fBodyBodyAccJerkMag-mean()"
-"34" "fBodyBodyGyroMag-mean()"
-"35" "fBodyBodyGyroJerkMag-mean()"
-"36" "tBodyAcc-std()-X"
-"37" "tBodyAcc-std()-Y"
-"38" "tBodyAcc-std()-Z"
-"39" "tGravityAcc-std()-X"
-"40" "tGravityAcc-std()-Y"
-"41" "tGravityAcc-std()-Z"
-"42" "tBodyAccJerk-std()-X"
-"43" "tBodyAccJerk-std()-Y"
-"44" "tBodyAccJerk-std()-Z"
-"45" "tBodyGyro-std()-X"
-"46" "tBodyGyro-std()-Y"
-"47" "tBodyGyro-std()-Z"
-"48" "tBodyGyroJerk-std()-X"
-"49" "tBodyGyroJerk-std()-Y"
-"50" "tBodyGyroJerk-std()-Z"
-"51" "tBodyAccMag-std()"
-"52" "tGravityAccMag-std()"
-"53" "tBodyAccJerkMag-std()"
-"54" "tBodyGyroMag-std()"
-"55" "tBodyGyroJerkMag-std()"
-"56" "fBodyAcc-std()-X"
-"57" "fBodyAcc-std()-Y"
-"58" "fBodyAcc-std()-Z"
-"59" "fBodyAccJerk-std()-X"
-"60" "fBodyAccJerk-std()-Y"
-"61" "fBodyAccJerk-std()-Z"
-"62" "fBodyGyro-std()-X"
-"63" "fBodyGyro-std()-Y"
-"64" "fBodyGyro-std()-Z"
-"65" "fBodyAccMag-std()"
-"66" "fBodyBodyAccJerkMag-std()"
-"67" "fBodyBodyGyroMag-std()"
-"68" "fBodyBodyGyroJerkMag-std()"
+Variable Number |   Variable Name           | Description
+----------------|-----------------------    |------------
+1               |Subject                    |Number identifing which subject the measurements are for
+2               |Activity                   |The activity the subject participated in
+3               |tBodyAcc-mean()-X          |The mean of the time domain body acceleration signal in the X direction    
+4               |tBodyAcc-mean()-Y          |The mean of the time domain body acceleration signal in the Y direction 
+5               |tBodyAcc-mean()-Z          |The mean of the time domain body acceleration signal in the Z direction 
+6               |tGravityAcc-mean()-X       |The mean of the time domain gravity acceleration signal in the X direction 
+7               |tGravityAcc-mean()-Y       |The mean of the time domain gravity acceleration signal in the Y direction  
+8               |tGravityAcc-mean()-Z       |The mean of the time domain gravity acceleration signal in the Z direction 
+9               |tBodyAccJerk-mean()-X      |The mean of the time domain body linear acceleration jerk signal in the X direction
+10              |tBodyAccJerk-mean()-Y      |The mean of the time domain body linear acceleration jerk signal in the Y direction
+11              |tBodyAccJerk-mean()-Z      |The mean of the time domain body linear acceleration jerk signal in the Z direction
+12              |tBodyGyro-mean()-X         |The mean of the time domain body linear angular velocity signal in the X direction
+13              |tBodyGyro-mean()-Y         |The mean of the time domain body linear angular velocity signal in the Y direction
+14              |tBodyGyro-mean()-Z         |The mean of the time domain body linear angular velocity signal in the Z direction
+15              |tBodyGyroJerk-mean()-X     |The mean of the time domain body linear angular velocity jerk signal in the X direction
+16              |tBodyGyroJerk-mean()-Y     |The mean of the time domain body linear angular velocity jerk signal in the Y direction
+17              |tBodyGyroJerk-mean()-Z     |The mean of the time domain body linear angular velocity jerk signal in the Z direction
+18              |tBodyAccMag-mean()         |The mean of the time domain body acceleration magnitude signal
+19              |tGravityAccMag-mean()      |The mean of the time domain gravity acceleration magnitude signal
+20              |tBodyAccJerkMag-mean()     |The mean of the time domain body linear acceleration jerk magnitude signal
+21              |tBodyGyroMag-mean()        |The mean of the time domain body linear angular velocity magnitude signal
+22              |tBodyGyroJerkMag-mean()    |The mean of the time domain body linear angular velocity jerk magnitude signal
+23              |fBodyAcc-mean()-X          |The mean of the frequency domain body acceleration signal in the X direction
+24              |fBodyAcc-mean()-Y          |The mean of the frequency domain body acceleration signal in the Y direction
+25              |fBodyAcc-mean()-Z          |The mean of the frequency domain body acceleration signal in the Z direction
+26              |fBodyAccJerk-mean()-X      |The mean of the frequency domain body linear acceleration jerk signal in the X direction
+27              |fBodyAccJerk-mean()-Y      |The mean of the frequency domain body linear acceleration jerk signal in the Y direction
+28              |fBodyAccJerk-mean()-Z      |The mean of the frequency domain body linear acceleration jerk signal in the Z direction
+29              |fBodyGyro-mean()-X         |The mean of the frequency domain body linear angular velocity signal in the X direction
+30              |fBodyGyro-mean()-Y         |The mean of the frequency domain body linear angular velocity signal in the Y direction
+31              |fBodyGyro-mean()-Z         |The mean of the frequency domain body linear angular velocity signal in the Z direction
+32              |fBodyAccMag-mean()         |The mean of the frequency domain body acceleration magnitude signal
+33              |fBodyBodyAccJerkMag-mean() |The mean of the frequency domain body linear acceleration jerk magnitude signal
+34              |fBodyBodyGyroMag-mean()    |The mean of the frequency domain body linear angular velocity magnitude signal
+35              |fBodyBodyGyroJerkMag-mean()|The mean of the frequency domain body linear angular velocity jerk magnitude signal
+36              |tBodyAcc-std()-X           |The standard deviation of the time domain body acceleration signal in the X direction
+37              |tBodyAcc-std()-Y           |The standard deviation of the time domain body acceleration signal in the Y direction
+38              |tBodyAcc-std()-Z           |The standard deviation of the time domain body acceleration signal in the Z direction
+39              |tGravityAcc-std()-X        |The standard deviation of the time domain gravity acceleration signal in the X direction 
+40              |tGravityAcc-std()-Y        |The standard deviation of the time domain gravity acceleration signal in the Y direction 
+41              |tGravityAcc-std()-Z        |The standard deviation of the time domain gravity acceleration signal in the Y direction 
+42              |tBodyAccJerk-std()-X       |The standard deviation of the time domain body linear acceleration jerk signal in the X direction
+43              |tBodyAccJerk-std()-Y       |The standard deviation of the time domain body linear acceleration jerk signal in the Y direction
+44              |tBodyAccJerk-std()-Z       |The standard deviation of the time domain body linear acceleration jerk signal in the Z direction
+45              |tBodyGyro-std()-X          |The standard deviation of the time domain body linear angular velocity signal in the X direction
+46              |tBodyGyro-std()-Y          |The standard deviation of the time domain body linear angular velocity signal in the Y direction
+47              |tBodyGyro-std()-Z          |The standard deviation of the time domain body linear angular velocity signal in the Z direction
+48              |tBodyGyroJerk-std()-X      |The standard deviation of the time domain body linear angular velocity jerk signal in the X direction
+49              |tBodyGyroJerk-std()-Y      |The standard deviation of the time domain body linear angular velocity jerk signal in the Y direction
+50              |tBodyGyroJerk-std()-Z      |The standard deviation of the time domain body linear angular velocity jerk signal in the Z direction
+51              |tBodyAccMag-std()          |The standard deviation of the time domain body acceleration magnitude signal
+52              |tGravityAccMag-std()       |The standard deviation of the time domain gravity acceleration magnitude signal
+53              |tBodyAccJerkMag-std()      |The standard deviation of the time domain body linear acceleration jerk magnitude signal
+54              |tBodyGyroMag-std()         |The standard deviation of the time domain body linear angular velocity magnitude signal
+55              |tBodyGyroJerkMag-std()     |The standard deviation of the time domain body linear angular velocity jerk magnitude signal
+56              |fBodyAcc-std()-X           |The standard deviation of the frequency domain body acceleration signal in the X direction
+57              |fBodyAcc-std()-Y           |The standard deviation of the frequency domain body acceleration signal in the Y direction
+58              |fBodyAcc-std()-Z           |The standard deviation of the frequency domain body acceleration signal in the Z direction
+59              |fBodyAccJerk-std()-X       |The standard deviation of the frequency domain body linear acceleration jerk signal in the X direction
+60              |fBodyAccJerk-std()-Y       |The standard deviation of the frequency domain body linear acceleration jerk signal in the Y direction
+61              |fBodyAccJerk-std()-Z       |The standard deviation of the frequency domain body linear acceleration jerk signal in the Z direction
+62              |fBodyGyro-std()-X          |The standard deviation of the frequency domain body linear angular velocity signal in the X direction
+63              |fBodyGyro-std()-Y          |The standard deviation of the frequency domain body linear angular velocity signal in the Y direction
+64              |fBodyGyro-std()-Z          |The standard deviation of the frequency domain body linear angular velocity signal in the Z direction
+65              |fBodyAccMag-std()          |The standard deviation of the frequency domain body acceleration magnitude signal
+66              |fBodyBodyAccJerkMag-std()  |The standard deviation of the frequency domain body linear acceleration jerk magnitude signal
+67              |fBodyBodyGyroMag-std()     |The standard deviation of the frequency domain body linear angular velocity magnitude signal
+68              |fBodyBodyGyroJerkMag-std() |The standard deviation of the frequency domain body linear angular velocity jerk magnitude signal
