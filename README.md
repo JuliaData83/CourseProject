@@ -31,4 +31,4 @@ The code now extracts only the measurements on the mean and standard deviation. 
 ##Creating a second dataset with the average of each variable for each activity and subject
 This last task is accomplished using the aggregate function, which calculates the mean for the 3-68 variables (since variable 1 is the subject and 2 is the activity) by the subject and activity variables.
 
-The last bit of code renames the first and second columns to "Subject" and "Activity", respectively.
+The last bit of code renames the first and second columns to "Subject" and "Activity", respectively. The result is a tidy, wide format data set containing 68 variables and 180 rows, with each row being the averages for all measurements for each subject and activity combination.
