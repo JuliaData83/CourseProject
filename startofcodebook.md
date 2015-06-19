@@ -4,7 +4,7 @@ There are 68 variables in this dataset, 66 of which are measurements from the or
 
 Variable Number |   Variable Name           | Description
 ----------------|-----------------------    |------------
-1               |Subject                    |Number identifing the subject
+1               |Subject                    |Number identifing the subject, resulting from a combination of the subject_train and subject_test datasets. There are 30 subjects in total.
 2               |Activity                   |The activity the subject participated in (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying)
 3               |tBodyAcc-mean()-X          |The mean of the time domain body acceleration signal in the X direction    
 4               |tBodyAcc-mean()-Y          |The mean of the time domain body acceleration signal in the Y direction 
